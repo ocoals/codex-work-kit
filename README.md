@@ -16,6 +16,8 @@ cp -R kit/skills/. .agents/skills/
 codex
 ```
 
+터미널의 Codex에서 줄바꿈은 `Option + Enter`, 전송은 `Enter`입니다. 메신저의 줄바꿈은 `Shift + Enter`입니다.
+
 그다음 [steps/0-setup.md](steps/0-setup.md)부터 순서대로 따릅니다. 예외 상황에는 [steps/exceptions.md](steps/exceptions.md)의 프롬프트를 씁니다.
 
 | 단계 | 시각(T+분) | 끝나는 조건 |
