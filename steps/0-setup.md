@@ -6,7 +6,7 @@
 
 ## Codex에게
 
-아래 "내가 할 것" 5번까지 끝낸 뒤 실행한다.
+아래 "내가 할 것" 4번까지 끝낸 뒤 실행한다.
 
 ```
 $setup-matt-pocock-skills
@@ -15,19 +15,14 @@ Issue tracker는 Local markdown, 위치는 docs/<feature>/, Domain docs는 singl
 
 ## 내가 할 것
 
-1. README를 정독하고 필수 제출물의 파일명과 경로, 실행 방식, 포트, 화면 요구를 적어 둔다.
+`kit/README.md`의 설치 명령을 먼저 실행해 Codex까지 켠 상태에서 시작한다.
+
+1. 과제 README를 정독하고 필수 제출물의 파일명과 경로, 실행 방식, 포트, 화면 요구를 적어 둔다.
 2. `git status`로 저장소인지 확인한다. 아니면 `git init` 후 첫 커밋을 한다.
-3. 키트에 들어 있는 공개 스킬 14개를 설치한다.
-
-```bash
-mkdir -p .agents/skills
-cp -R kit/skills/. .agents/skills/
-```
-
-4. Codex를 새로 켜고 `/skills`로 14개를 확인한다.
-5. `/model`에서 effort를 medium으로 바꾸고 `/status`로 확인한다. 기본값이 low일 수 있다. 모든 단계를 medium으로 한다. 세션 중간에는 effort를 바꾸지 않고, 바꿔야 하면 새 세션을 시작할 때 바꾼다.
-6. 위 setup을 실행한다.
-7. 스킬과 키트를 별도 커밋으로 남긴다.
+3. `/skills`로 14개를 확인한다. 안 보이면 Codex를 다시 켠다.
+4. `/model`에서 effort를 medium으로 바꾸고 `/status`로 확인한다. 기본값이 low일 수 있다. 모든 단계를 medium으로 한다. 세션 중간에는 effort를 바꾸지 않고, 바꿔야 하면 새 세션을 시작할 때 바꾼다.
+5. 위 setup을 실행한다.
+6. 스킬과 키트를 별도 커밋으로 남긴다.
 
 setup이 실패하면 AGENTS.md에 직접 쓴다:
 
